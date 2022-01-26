@@ -1,0 +1,372 @@
+body{
+    background-color: #29335C;
+}
+
+#main{
+    background-color: #FFF275;
+    font-family: 'Outfit', sans-serif;
+    max-width: 60%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border: #FFF275 solid 3px;
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#insta{
+    font-size: 24px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#tag{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+
+form{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+textarea{
+    height: 210px;
+    width: 550px;
+    padding: 0 5px 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 3px solid #29335C;
+    border-radius: 10px;
+    background-color: #FFF275;
+    font-size: 20px;
+    color: #29335C;
+    resize: none;
+}
+
+button{
+    background-color: #FFF275;
+    width: 400px;
+    height: 60px;
+    color: #29335C;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: #29335C solid 3px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+#confession-button{
+    background-color: #FFF275;
+    width: 425px;
+    height: 60px;
+    color: #29335C;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: #29335C solid 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#instructions{
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: 400px;
+}
+
+#rules{
+    font-weight: 600;
+}
+
+#thanks{
+    font-family: 'Comforter', cursive;
+    font-size: 72px;
+}
+
+table{
+    margin: auto;
+    border-spacing: 25px;
+}
+
+th, #confession-self{
+    border-radius: 5px;
+    border: #29335C solid 1px;
+    max-width: 500px;
+    word-wrap: break-word;
+    font-size: 20px;
+    height: 100px;
+}
+
+#title-confession{
+    font-size: 38px;
+    padding-top: 30px;
+}
+
+
+#confession-date{
+    font-size: 12px;
+    width: 150px;
+    word-wrap: break-word;
+}
+
+
+@media screen and (max-width: 1200px) {
+    table{
+        margin: auto;
+        border-spacing: 25px;
+    }
+    
+    th, #confession-self{
+        border-radius: 5px;
+        border: #29335C solid 1px;
+        max-width: 400px;
+        word-wrap: break-word;
+        font-size: 20px;
+        height: 150px;
+    }
+    
+    #title-confession{
+        font-size: 38px;
+        padding-top: 30px;
+    }
+    
+    
+    #confession-date{
+        font-size: 12px;
+        width: 150px;
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main{
+        background-color: #FFF275;
+        font-family: 'Outfit', sans-serif;
+        max-width: 80%;
+        height: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border: #FFF275 solid 3px;
+        border-radius: 15px;
+    }
+    
+    h1{
+        font-weight: 700;
+        font-size: 42px;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin: auto;
+    }
+    
+    #tag{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 800;
+        font-size: 26px;
+    }
+    
+    
+    form{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    
+    textarea{
+        height: 300px;
+        width: 400px;
+        padding: 0 5px 10px 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border: 3px solid #29335C;
+        border-radius: 10px;
+        background-color: #FFF275;
+        font-size: 20px;
+        color: #29335C;
+        resize: none;
+    }
+    
+    button{
+        background-color: #FFF275;
+        width: 250px;
+        height: 100px;
+        color: #29335C;
+        font-size: 24px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        padding: 10px 10px;
+        border: #29335C solid 3px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+    
+    #instructions{
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: 400px;
+    }
+    
+    #rules{
+        font-weight: 600;
+    }
+    
+    #thanks{
+        font-family: 'Comforter', cursive;
+        font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #main{
+        background-color: #FFF275;
+        font-family: 'Outfit', sans-serif;
+        max-width: 95%;
+        height: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        border: #FFF275 solid 3px;
+        border-radius: 15px;
+    }
+    
+    h1{
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin: auto;
+    }
+    
+    #tag{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 800;
+        font-size: 22px;
+    }
+    
+    
+    form{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    
+    textarea{
+        height: 350px;
+        width: 300px;
+        padding: 0 5px 10px 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border: 3px solid #29335C;
+        border-radius: 10px;
+        background-color: #FFF275;
+        font-size: 20px;
+        color: #29335C;
+        resize: none;
+    }
+    
+    button{
+        background-color: #FFF275;
+        width: 250px;
+        height: 100px;
+        color: #29335C;
+        font-size: 24px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        padding: 10px 10px;
+        border: #29335C solid 3px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+    
+    #instructions{
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: 400px;
+    }
+    
+    #rules{
+        font-weight: 600;
+    }
+    
+    #thanks{
+        font-family: 'Comforter', cursive;
+        font-size: 72px;
+    }
+
+    table{
+            margin: auto;
+            border-spacing: 10px;
+        }
+        
+        th, #confession-self{
+            border-radius: 5px;
+            border: #29335C solid 1px;
+            max-width: 300px;
+            word-wrap: break-word;
+            font-size: 20px;
+            height: 250px;
+        }
+        
+        #title-confession{
+            font-size: 38px;
+            padding-top: 30px;
+        }
+        
+        
+        #confession-date{
+            font-size: 12px;
+            width: 80px;
+            word-wrap: break-word;
+        }
+        #confession-button{
+            background-color: #FFF275;
+            width: 300px;
+            height: 60px;
+            color: #29335C;
+            font-size: 18px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+            padding: 10px 10px;
+            border: #29335C solid 3px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM RMP'25 Confessions</title>
+    <link rel="icon" href="{{url_for('static', filename='logo.png')}}" type="image/icon type">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="main">
+        <h1>Welcome to the <br> SRM Ramapuram '25 <br> Confessions Page</h1>
+        <a target="_blank" rel="noopener noreferrer" id="insta" href="https://www.instagram.com/srmrmp.25.confessions/">@srmrmp.25.confessions</a>
+        <h3 id="tag">Enter your Confession below</h3>
+        <div class="form">
+            <form method="POST">
+                <textarea name="confession" id="confession" maxlength="350" placeholder="Type here" required autofocus></textarea>
+                <br><button type="submit" >Submit your Confession</button>
+                <br><a href="{{url_for('confessions')}}" id="confession-button">See All Confessions</a>
+            </form>
+        </div>
+        <div id="instructions">
+            <label for="rules" id="rules">Rules:</label>
+                    <br> No NSFW <br>
+                    No Personal Info
+        </div>
+    </section>
+</body>
+</html>
