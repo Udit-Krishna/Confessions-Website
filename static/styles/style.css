@@ -26,13 +26,6 @@ h1{
     margin: auto;
 }
 
-#insta{
-    font-size: 24px;
-    margin-top: 30px;
-    text-decoration: none;
-    color: inherit;
-}
-
 #tag{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -116,6 +109,7 @@ th, #confession-self{
     border-radius: 5px;
     border: #29335C solid 1px;
     max-width: 500px;
+    padding: 5px;
     word-wrap: break-word;
     font-size: 20px;
     height: 100px;
