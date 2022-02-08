@@ -13,7 +13,9 @@
 </head>
 <body>
     <section id="main">
-        <br><br><a href="{{url_for('index')}}" id="confession-button">Go to Home Page</a><br>
+        <br><br>
+        <img id="srm_logo_confessions" src="{{url_for('static', filename='logo.png')}}" alt="SRM Logo" height="150"><br>
+        <a href="{{url_for('index')}}" id="confession-button">Go to Home Page</a><br>
         <h3 id="title-confession">List of Confessions</h3>
         <table>
                 {% for confession in confessions %}

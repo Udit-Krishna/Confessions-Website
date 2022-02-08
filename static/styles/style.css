@@ -17,11 +17,21 @@ body{
     border-radius: 15px;
 }
 
+#srm_logo{
+    padding-top: 30px;
+}
+
+#srm_logo_confessions{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
 h1{
     font-weight: 700;
     font-size: 48px;
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     max-width: 500px;
     margin: auto;
 }
@@ -69,6 +79,21 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #29335C;
+    width: 400px;
+    height: 60px;
+    color: #FFF275;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: #FFF275 solid 3px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
 #confession-button{
     background-color: #FFF275;
     width: 425px;
@@ -79,6 +104,22 @@ button{
     font-weight: 400;
     padding: 10px 10px;
     border: #29335C solid 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#confession-button:hover{
+    background-color: #29335C;
+    width: 425px;
+    height: 60px;
+    color: #FFF275;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: #FFF275 solid 3px;
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -98,6 +139,7 @@ button{
 #thanks{
     font-family: 'Comforter', cursive;
     font-size: 72px;
+    padding-bottom: 60px;
 }
 
 table{
